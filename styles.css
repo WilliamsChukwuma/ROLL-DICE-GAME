@@ -1,12 +1,12 @@
 body{
-    background-image: url(bg.jpg);
+    /* background-image: url(bg.jpg); */
+    background: linear-gradient(360deg, #6AD4DD,#5356FF );
     height: 100%;
     width: 100%;
-    
 }
 
 .container{
-    color: rgba(223, 182, 17, 0.532);
+    color: black;
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -21,7 +21,7 @@ body{
   p {
     margin-top: 50px;
     font-size: 2rem;
-    color: rgba(223, 182, 17, 0.532);
+    color: black;
     font-family: 'Indie Flower', cursive;
   }
   
@@ -32,7 +32,7 @@ body{
 #refreshButton{
     margin: auto;
     display: block;
-    background-color: rgba(223, 182, 17, 0.532);
+    background-color: burlywood;
 }
 
 footer {

@@ -3,8 +3,8 @@ document.getElementById('refreshButton').addEventListener('click', function() {
     location.reload(true); 
   });
 
-  //var name1 = prompt("Player 1 Input name");
-  //var name2 = prompt("Player 2 input name");
+  var name1 = prompt("Input your first task");
+  var name2 = prompt("Input your second task");
 
   // for player 1
 
@@ -24,9 +24,9 @@ var randomDiceImage2 = "images/dice" + randomNumber2 + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", randomDiceImage2);
 
 if (randomNumber1 > randomNumber2){
-    document.querySelector("h1").innerHTML =  " Player1 won";
+    document.querySelector("h1").innerHTML =  " Do " + name1 + "😊";
 } else if (randomNumber2 > randomNumber1){
-     document.querySelector("h1").innerHTML = " Player2 won";
+     document.querySelector("h1").innerHTML = "Do " + name2 + "😊";
 }else {
-    document.querySelector("h1").innerHTML = "DRAW";
+    document.querySelector("h1").innerHTML = "DO BOTH FAM😂";
 }
